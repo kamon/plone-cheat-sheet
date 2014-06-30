@@ -26,7 +26,7 @@ TODO
 TODO
 
 ### Admin interface
-TODO
+Plone has a rich featured interface for administrators, which includes portlets, control panels, and a settings registry for advanced uses.
 
 ### Content types
 A Plone-based application is structured around content types.
