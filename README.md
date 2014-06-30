@@ -14,19 +14,19 @@ A collection of useful tips and advices from the Plone community, to help the we
 
 ## Plone CMS
 ### The big picture
-XXX
+TODO
 
 ### Installation
-XXX
+TODO
 
 ### Site setup
-XXX
+TODO
 
 ### Editing interface
-XXX
+TODO
 
 ### Admin interface
-XXX
+TODO
 
 ### Content types
 A Plone-based application is structured around content types.
@@ -43,16 +43,16 @@ Some advantages of using Dexterity-based types:
   * It is possible to define a new content type TTW, if you need to.
   * Content Internationalization is supported via the new internal framework `plone.app.multilingual` with the `plone.app.multilingualbehaviour` package for the Dexterity integration layer.
 
-Resources about Dexterity content types:
+
+#### Policy settings for content types
+You can decide *if/how* your types are searchable. Make sure your search results are filtered, and do not show unrelevant stuff. See the _Search control panel_.
+
+You can decide *if/how* your types are exposed in the site navigation. Make sure the navigation tools (portal tabs, navigation portlet) do not show unrelevant stuff. See the _Navigation control panel_.
+
+#### Resources
 
 | Title | Link |
 | ----- | ---- |
 | Plone Documentation - Dexterity | http://docs.plone.org/external/plone.app.dexterity/docs/index.html |
 | Todo list application tutorial | http://tutorialtodoapp.readthedocs.org/en/latest/ |
 | Multilingual sites in Plone (talk) | http://fr.slideshare.net/bloodbare/multilingual-sites-in-plone |
-
-#### Policy settings for content types
-*You can decide if your types are searchable.* Make sure your search results are filtered, and do not show unrelevant stuff. See the _Search control panel_.
-
-*You can decide if your types are exposed in the site navigation.* Make sure the navigation tools (portal tabs, navigation portlet) do not show unrelevant stuff. See the _Navigation control panel_.
-
