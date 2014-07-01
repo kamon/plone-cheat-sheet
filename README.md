@@ -16,6 +16,7 @@ A collection of useful tips and advices from the Plone community, to help the we
 ### Installation
 The recommended way for installing Plone is [Buildout](#buildout).
 There is an installer, which itself is based on Buildout.
+
 Alternative installation methods:
 * [PloneDev.Vagrant](https://github.com/plone/plonedev.vagrant) is a kit for setting up an easy to use development environment for Plone in a hosted virtual machine.
 * [Plock](https://github.com/plock/plock) is a solution proposed by Alex Clark to allow installing Plone via `pip install Plone`.
@@ -57,3 +58,5 @@ You can decide *if/how* your types are exposed in the site navigation. Make sure
 | Plone Documentation - Dexterity | http://docs.plone.org/external/plone.app.dexterity/docs/index.html |
 | Todo list application tutorial | http://tutorialtodoapp.readthedocs.org/en/latest/ |
 | Multilingual sites in Plone (talk) | http://fr.slideshare.net/bloodbare/multilingual-sites-in-plone |
+
+## Buildout
