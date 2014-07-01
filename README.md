@@ -3,7 +3,6 @@ A collection of useful tips and advices from the Plone community, to help the we
 
 ## Table of Contents
   - [Plone CMS](#plone-cms)
-    - The big picture 
     - Installation 
     - Site setup
     - Editing interface
@@ -13,11 +12,13 @@ A collection of useful tips and advices from the Plone community, to help the we
   - [Plone Front-end development](#plone-front-end-development)
 
 ## Plone CMS
-### The big picture
-TODO
 
 ### Installation
-TODO
+The recommended way for installing Plone is [Buildout](#buildout).
+There is an installer, which itself is based on Buildout.
+Alternative installation methods:
+* [PloneDev.Vagrant](https://github.com/plone/plonedev.vagrant) is a kit for setting up an easy to use development environment for Plone in a hosted virtual machine.
+* [Plock](https://github.com/plock/plock) is a solution proposed by Alex Clark to allow installing Plone via `pip install Plone`.
 
 ### Site setup
 TODO
