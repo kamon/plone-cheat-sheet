@@ -8,6 +8,8 @@ A collection of useful tips and advices from the Plone community, to help the we
     - Editing interface
     - Admin interface
     - Content types
+    - Multilingual content
+    - More resoures about Plone
   - [Buildout](#buildout)
   - [Plone Front-end development](#plone-front-end-development)
 
@@ -22,7 +24,10 @@ Alternative installation methods:
 * [Plock](https://github.com/plock/plock) is a solution proposed by Alex Clark to allow installing Plone via `pip install Plone`.
 
 ### Site setup
-TODO
+To initialize a new Plone site on a Zope instance through the web, visit http://url-to-your-zope-instance/`/@@plone-addsite?site_id=myplonesite`. The script responsible for the initial site setup then adds the Plone site object and populate it with "example content".
+There are cases, such as when you want to set up a [multilingual site](#multilingual-content), where you do not want the script to populate the site with default content: simply add `&advanced=1` to that URL.
+
+See [Buildout](#buildout) and `collective.recipe.plonesite` for doing the site setup from the command line.
 
 ### Editing interface
 TODO
@@ -68,12 +73,22 @@ You can decide *if/how* your types are searchable. Make sure your search results
 
 You can decide *if/how* your types are exposed in the site navigation. Make sure the navigation tools (portal tabs, navigation portlet) do not show unrelevant stuff. See the _Navigation control panel_.
 
-#### Resources
+### Multilingual content
+TODO
+
+### More resoures about Plone
+
+#### Documentation
 
 | Title | Link |
 | ----- | ---- |
 | Plone Documentation - Dexterity | http://docs.plone.org/external/plone.app.dexterity/docs/index.html |
 | Todo list application tutorial | http://tutorialtodoapp.readthedocs.org/en/latest/ |
+
+#### Talks
+
+| Title | Link |
+| ----- | ---- |
 | Multilingual sites in Plone (talk) | http://fr.slideshare.net/bloodbare/multilingual-sites-in-plone |
 
 ## Buildout
