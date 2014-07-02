@@ -52,8 +52,16 @@ You can start using the new [Dexterity-based default content types ](https://git
 Some advantages of using Dexterity-based types:
   * Dexterity `behaviours` such as `RichText`, `LeadImage`, event `start date` & `end date` fields, can be reused for your content types, even TTW. See _Dexterity content types control panel_.
   * It is possible to define a new content type TTW, if you need to.
-  * Content Internationalization is supported via the new internal framework `plone.app.multilingual` with the `plone.app.multilingualbehaviour` package for the Dexterity integration layer.
 
+#### Additional Dexterity behaviours available from the Plone community
+
+| Feature | Add-on project page |
+| ------- | ------------------- |
+| Geotagging | https://github.com/collective/collective.geolocationbehavior |
+| Local web analytics | https://github.com/collective/collective.behavior.localanalytics |
+| Multilingual content | https://github.com/plone/plone.multilingualbehavior |
+
+To find all packages on GitHub related to Dexterity behaviors: https://github.com/collective?query=behavior
 
 #### Policy settings for content types
 You can decide *if/how* your types are searchable. Make sure your search results are filtered, and do not show unrelevant stuff. See the _Search control panel_.
