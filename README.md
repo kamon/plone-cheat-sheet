@@ -29,15 +29,15 @@ TODO
 
 ### Admin interface
 Plone has a rich featured interface for administrators, which includes `Portlets` and `Control Panels`.
-There is also a configuration registry, used by Plone add-ons to store their configuration data.
+There is also a Configuration Registry, used by Plone add-ons to store their configuration data.
 
 #### Quick access to some useful parts of the interface
 
-| To access | Do |
-| --------- | -- |
+| To access... | Do... |
+| ------------ | ----- |
 | The Portlets interface | Add `/manage-portlets` to the URL of your current context |
 | The Control Panels space | Visit http://url-to-your-site/`plone_control_panel` |
-| The configuration registry | Visit http://url-to-your-site/`portal_registry` |
+| The Configuration Registry | Visit http://url-to-your-site/`portal_registry` |
 
 ### Content types
 A Plone-based application is structured around content types.
