@@ -26,7 +26,11 @@ Alternative installation methods:
 * [Plock](https://github.com/plock/plock) is a solution proposed by Alex Clark to allow installing Plone via `pip install Plone`.
 
 ### Site setup
-To initialize a new Plone site on a Zope instance through the web, visit http://url-to-your-zope-instance/`/@@plone-addsite?site_id=myplonesite`. The script responsible for the initial site setup then adds the Plone site object and populate it with "example content".
+To initialize a new Plone site on a Zope instance through the web, go to:
+```
+http://url-to-your-zope-instance/@@plone-addsite?site_id=myplonesite
+```
+After you submit the form, the script responsible for the initial site setup then adds the Plone site object and populate it with "example content".
 There are cases, such as when you want to set up a [multilingual site](#multilingual-content), where you do not want the script to populate the site with default content: simply add `&advanced=1` to that URL.
 
 ### Editing interface
@@ -41,8 +45,8 @@ There is also a Configuration Registry, used by Plone add-ons to store their con
 | To access... | Do... |
 | ------------ | ----- |
 | The Portlets interface | Add `/manage-portlets` to the URL of your current context |
-| The Control Panels space | Visit http://url-to-your-site/`plone_control_panel` |
-| The Configuration Registry | Visit http://url-to-your-site/`portal_registry` |
+| The Control Panels space | Visit *http://url-to-your-site/`plone_control_panel`* |
+| The Configuration Registry | Visit *http://url-to-your-site/`portal_registry`* |
 
 ### Content types
 A Plone-based application is structured around content types.
